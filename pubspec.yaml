@@ -1,0 +1,43 @@
+name: myapp
+description: "App oficial de ALABURGER al Carbón - Fuego y Sabor."
+
+# No publicar en pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos de estilo iOS (opcional, pero viene por defecto)
+  cupertino_icons: ^1.0.8
+
+  # EL INGREDIENTE SECRETO: Animaciones para que la app se vea "perrona"
+  animate_do: ^3.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recomendaciones de buen código
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Habilita el uso de iconos de Material Design
+  uses-material-design: true
+
+  # CONFIGURACIÓN DE IMÁGENES (ASSETS)
+  # Para usar tus propias fotos y logo, crea una carpeta llamada 'assets' 
+  # en la raíz de tu proyecto y quita el '#' de las siguientes líneas:
+  # assets:
+  #   - assets/logo.png
+  #   - assets/fondo_parrilla.jpg
+  #   - assets/burger1.png
+
+  # Si quieres que reconozca TODO lo que metas en la carpeta assets:
+  # assets:
+  #   - assets/
